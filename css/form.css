@@ -23,4 +23,8 @@
     padding-left: 15px;
 }
 
+.form-row:hover {
+    border-left: 3px solid #3F53E2;
+}
+
 
