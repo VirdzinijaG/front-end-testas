@@ -1,18 +1,26 @@
 .form {
-
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 .form-row {
-
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 0;
+    border: 1px solid silver; 
 }
 .form-row > label {
-
+    background-color: white;
+    padding-left: 15px;
+    padding-top: 5px;
+    font-size: 15px;
 }
 .form-row > input {
-    
+    border: none;
+    height: 25px;
+    color: #3F53E2;
+    padding-left: 15px;
 }
-.links {
 
-}
-.links > a {
-    
-}
+
