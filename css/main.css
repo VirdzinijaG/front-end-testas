@@ -10,37 +10,36 @@ main {
     display: inline-block;
     width: 800px;
     position: absolute;
-    left: 30%;
+    left: 25%;
     transform: translate(-50%, -50%);
 }
 .left {
     position: absolute;
-    top: 0;
-    left: 10%;
     width: 70%;
     height: 100vh;
-    padding: 50px;
+    padding: 70px;
     background-color: yellow;
 }
 .title {
     font-size: 25px;
     color: #3852F4;
-    margin-top: 100px;
-    margin-bottom: 60px;
-    
-
+    margin-top: 10px;
+    margin-bottom: 90px;
 }
 .main-text {
     color: #233052;
     text-transform: capitalize;
-    font-size: 30px;
-    margin-bottom: 10px; 
-    
-    
+    font-size: 35px;
+}
+.main-text-last {
+    color: #233052;
+    text-transform: capitalize;
+    font-size: 35px;
+    margin-bottom: 20px; 
 }
 .small-text {
     color: #898A9C;
-    margin-bottom: 30px;
+    margin-bottom: 45px;
 }
 .links {
    line-height: 10px;
@@ -48,14 +47,10 @@ main {
    margin-bottom: 60px;
    color: #898A9C;
 }
-.links > form {
-    
-}
 .links > a {
     color: #898A9C;
     text-decoration: none;
-    margin-left: 120px;
-    
+    margin-left: 160px;
 }
 
 .social-links {

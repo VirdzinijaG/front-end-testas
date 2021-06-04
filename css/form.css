@@ -6,7 +6,7 @@
 .form-row {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 94%;
     gap: 0;
     border: 1px solid silver; 
 }

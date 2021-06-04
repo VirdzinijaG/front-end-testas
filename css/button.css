@@ -1,3 +1,25 @@
 .button {
-
+   display: flex;
+   flex-direction: row;
+   gap: 20px;
+}
+.first-button {
+    background-color: #3751FF;
+    color: white;
+    line-height: 40px;
+    font-size: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 2px, solid, #3751FF;
+    border-radius: 3px;
+}
+.last-button {
+    background-color: white;
+    color: #3751FF;
+    line-height: 40px;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 2px, solid, #3751FF;
+    border-radius: 3px;
 }
