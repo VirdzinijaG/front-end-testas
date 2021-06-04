@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test</title>
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/form.css">
-    <link rel="stylesheet" href="./css/button.css">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/form.css">
+    <link rel="stylesheet" href="../css/button.css">
 </head>
 
 <body>
@@ -21,6 +21,10 @@
             <p class="small-text">Welcome Back, Please login to your account</p>
             <form class="form">
                 <div class="form-row">
+                    <label for="username">Username</label>
+                    <input id="username" type="text" required>
+                </div>
+                <div class="form-row">
                     <label for="email">Email Address</label>
                     <input id="email" type="email" required>
                 </div>
@@ -28,19 +32,22 @@
                     <label for="paswword">Password</label>
                     <input id="password" type="password" required>
                 </div>
+                <div class="form-row">
+                    <label for="re-paswword">Repeat password</label>
+                    <input id="re-paswword" type="paswword" required>
+                </div>
                 <div class="links">
                     <form action="remember-me">
                         <input type="checkbox" id="remember-me">
                         <label for="remember-me"> Remember me</label>
-                        <a href="#">Forrget password?</a>
                 </div>
             </form>
             <div class="button">
-                <button class="first-button" type="submit">Login</button>
-                <button class="last-button" type="submit">Sign Up</button>
+                <button class="first-button" type="submit">Sign up</button>
+                <button class="last-button" type="submit"><a href="../">Login</a></button>
             </div>
             <div class="social-links">
-                <p> Or logins with</p>
+                <p> Or register with</p>
                 <a href="#" target="_blank">Facebook</a>
                 <a href="#" target="_blank">Linkedin</a>
                 <a href="#" target="_blank">Google</a>

@@ -15,11 +15,14 @@
 }
 .last-button {
     background-color: white;
-    color: #3751FF;
     line-height: 40px;
     font-size: 20px;
     padding-left: 30px;
     padding-right: 30px;
     border: 2px, solid, #3751FF;
     border-radius: 3px;
+}
+.last-button > a {
+    text-decoration: none;
+    color: #3751FF;
 }
